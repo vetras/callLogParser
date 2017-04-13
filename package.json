@@ -1,0 +1,16 @@
+{
+  "name": "call-log",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "clear && tsc && node dist/main.js",
+    "debug": "clear && tsc && node --debug-brk=5858 dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^7.0.12"
+  }
+}
